@@ -1,0 +1,62 @@
+extensions:
+portuguese brazil language pack
+live server (ALT + L + O)
+omni theme ou dracula theme
+vscode-icons
+color high
+
+Nas configugaçoes -> preferencias, ativar o word wrap para a quebra de linha automatica e aparecer o texto/código todo na tela
+
+TAGS:
+h1 -> Titulo principal
+h2 e h3 -> Subtitulos
+e 
+ul -> Lista desorganizada
+ol -> Lista organizada
+li -> itens de lista, esta dentro da 'ul' ou da 'ol'(pode ter varios dentro de uma das lista a cima[seja desorganizada ou organizada]).
+
+img -> renderizar imagens
+div -> criar elementos html dentro dela, similar a main, mas n tem a msm importancia
+
+
+*CSS* -> CASCADE STYLE SHEETS -> FOLHA DE ESTILO EM CASCATA
+
+SELETORES: Informam ao navegador quais elementos html devem ser selecionados para que os estilos sejam aplicados a ele:
+//seletor de tag//
+p {
+
+}
+
+//seletor de classe//
+.cabecalho {
+
+}
+
+//seletor universal//
+* {
+
+}
+
+//seletor de descendente//
+ul li {
+
+}
+
+PROPRIEDADES: É uma característica (como a cor) cujo valor define o aspecto de como o navegador deve exibir o elemento:
+.cabecalho {
+	background-color: red;
+}
+
+'background-color' = propriedade
+'red' = valor
+
+exemplo:
+HTML:
+<div class="cabecalho">
+ Aqui tem um conteúdo qualquer dentro do div
+</div>
+
+CSS:
+.cabecalho {
+ background-color: red;
+ }
