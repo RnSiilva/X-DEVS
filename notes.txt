@@ -60,3 +60,7 @@ CSS:
 .cabecalho {
  background-color: red;
  }
+
+
+Sombras p/ CSS:
+https://getcssscan.com/css-box-shadow-examples
